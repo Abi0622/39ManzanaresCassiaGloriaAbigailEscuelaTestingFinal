@@ -7,21 +7,21 @@ Este proyecto contiene la automatización de pruebas del backend de la API públ
 
 La automatización cubre los módulos principales del sistema:
 
-🏪 STORE
+- **STORE**
 
-👤 USER
+- **USER**
 
 Las pruebas están organizadas bajo los enfoques:
 
-✅ Happy Path (escenarios exitosos)
+< Happy Path (escenarios exitosos) >
 
-❌ Unhappy Path (escenarios negativos y validaciones de error)
+< Unhappy Path (escenarios negativos y validaciones de error) >
 
 ## ¿Qué hace la automatización?
 
 La suite valida el correcto funcionamiento de los endpoints REST del Petstore:
 
-🏪 STORE
+**STORE**
 
 ✔ Escenarios Happy
 
@@ -30,7 +30,7 @@ La suite valida el correcto funcionamiento de los endpoints REST del Petstore:
   - Consultar orden por ID (GET /store/order/{id})
   - Eliminar orden (DELETE /store/order/{id})
 
-❌ Escenarios Unhappy 
+X Escenarios Unhappy 
 
 - Crear orden con datos inválidos 
 - Buscar orden con ID inválido 
@@ -38,7 +38,7 @@ La suite valida el correcto funcionamiento de los endpoints REST del Petstore:
 - Eliminar orden inexistente 
 - Eliminar orden con ID inválido
 
-👤 USER
+**USER**
 
 ✔ Escenarios Happy
 
@@ -51,7 +51,7 @@ La suite valida el correcto funcionamiento de los endpoints REST del Petstore:
 - Login (GET /user/login)
 - Logout (GET /user/logout)
 
-❌ Escenarios Unhappy
+X Escenarios Unhappy
 
 - Crear usuario con datos inválidos 
 - Obtener usuario inexistente 
@@ -59,7 +59,7 @@ La suite valida el correcto funcionamiento de los endpoints REST del Petstore:
 - Actualizar usuario inválido (BUG API detectado)
 - Login con credenciales inválidas (limitación del mock)
 
-⚙️ Tecnologías utilizadas
+**Tecnologías utilizadas** 
 
 - Java
 - Maven
