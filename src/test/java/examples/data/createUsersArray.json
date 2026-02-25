@@ -1,0 +1,22 @@
+[
+  {
+    "id": 3001,
+    "username": "arrayUser1",
+    "firstName": "Ana",
+    "lastName": "Lopez",
+    "email": "ana@test.com",
+    "password": "12345",
+    "phone": "999111222",
+    "userStatus": 1
+  },
+  {
+    "id": 3002,
+    "username": "arrayUser2",
+    "firstName": "Luis",
+    "lastName": "Perez",
+    "email": "luis@test.com",
+    "password": "12345",
+    "phone": "999333444",
+    "userStatus": 1
+  }
+]
